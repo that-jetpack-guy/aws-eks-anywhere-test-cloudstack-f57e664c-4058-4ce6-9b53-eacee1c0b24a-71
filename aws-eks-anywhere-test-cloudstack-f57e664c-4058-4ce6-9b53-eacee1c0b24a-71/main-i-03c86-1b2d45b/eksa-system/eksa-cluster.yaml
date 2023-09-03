@@ -40,7 +40,7 @@ spec:
   managementCluster:
     name: main-i-03c86-1b2d45b
   workerNodeGroupConfigurations:
-  - count: 1
+  - count: 3
     machineGroupRef:
       kind: CloudStackMachineConfig
       name: main-i-03c86-1b2d45b
